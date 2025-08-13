@@ -5,13 +5,13 @@ This project addresses the two subtasks from the SemEval-2023 Clickbait Spoiling
 - **Task 1: Spoiler Type Classification** - Classify clickbait posts into three spoiler types: phrase, passage, or multi
 - **Task 2: Spoiler Generation** - Generate spoiler text that satisfies curiosity induced by clickbait posts
 
-We experimented with various models and training strategies to tackle both classification and generation tasks effectively.
+Various models and training strategies were tested to effectively tackle both classification and generation tasks.
 
 ---
 
 ## Task 1: Spoiler Type Classification
 
-We started with simple models (logistic regression) and gradually moved toward more powerful Transformer-based architectures.
+The approach began with simple models (logistic regression) and gradually transitioned toward more powerful Transformer-based architectures.
 
 **Final model:**
 - Ensemble of `microsoft/deberta-v3-large` and `google/electra-large-discriminator`  
@@ -21,13 +21,13 @@ We started with simple models (logistic regression) and gradually moved toward m
 
 ## Task 2: Spoiler Generation
 
-We used encoder-decoder transformer models for generating spoilers from clickbait posts and linked articles.
+Encoder-decoder transformer models were used for generating spoilers from clickbait posts and linked articles.
 
 **Final model:**
 - Fine-tuned `t5-base`
 - Achieved **METEOR score = 0.431**
 
-*Note: We only provide our best model for both tasks.*
+*Note: Only the best model for both tasks are provided in this repo.*
 
 ---
 
