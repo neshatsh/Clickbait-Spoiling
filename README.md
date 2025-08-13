@@ -30,3 +30,10 @@ We used encoder-decoder transformer models for generating spoilers from clickbai
 *Note: We only provide our best model for both tasks.*
 
 ---
+
+## Dataset
+We used the official JSONL files provided by the challenge organizers:
+
+train.jsonl
+val.jsonl
+test.jsonl
