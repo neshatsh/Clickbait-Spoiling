@@ -30,7 +30,3 @@ We used encoder-decoder transformer models for generating spoilers from clickbai
 *Note: We only provide our best model for both tasks.*
 
 ---
-
-## Team Members
-- Neshat Sharbatdar
-- Majid Taherkhani
