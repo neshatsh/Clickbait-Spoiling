@@ -110,11 +110,6 @@ $RECYCLE.BIN/
 *.pth
 *.ckpt
 
-# Large data files (in case students add their own)
-*.zip
-*.tar.gz
-*.7z
-
 # Environment variables
 .env
 .env.local
